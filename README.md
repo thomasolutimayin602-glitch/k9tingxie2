@@ -16,6 +16,10 @@ npm run build
 npm run preview
 ```
 
+## Vercel 部署
+
+仓库根目录包含 `vercel.json`。在 Vercel 导入仓库后，使用默认的 `npm run build`，并将 `dist/` 作为输出目录即可。项目固定使用 Node 22.x 和 Vite 8.3.0。
+
 ## 账号
 
 - 用户名：`gamer`
